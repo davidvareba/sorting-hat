@@ -1,14 +1,36 @@
+.card-title {
+    background-color: darkred;
+}
+header {
+    text-align: center;
+}
 
-  
-  .pieStyles, 
-  .buttonStyles {
+.start-btn-container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-  }
-  
-  .btn,
-  .card {
+}
+
+.first-yr {
+    display: inline;
+    float: left;
+    border: solid black 3px;
+    width: 45%;
+    padding: 10%;
     margin: 10px;
-  }
-  
+    background-image: url("https://imgix.bustle.com/rehost/2016/9/13/70371c31-7d4c-4b46-839f-3225d06f8f99.jpg?w=800&fit=crop&crop=focalpoint&auto=format%2Ccompress&fp-x=0.5196969696969697&fp-y=0.5575757575757576");
+}
+
+.voldy {
+    display: inline;
+    float: right;
+    border: solid black 3px;
+    width: 45%;
+    padding: 10%;
+    margin: 10px;
+    background-image: url("https://www.sideshow.com/storage/product-images/902318/lord-voldemort_harry-potter_feature.jpg");
+}
+
+#form-control {
+    width: 80%;
+    margin: 20px;
+}
